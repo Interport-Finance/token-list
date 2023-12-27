@@ -1,0 +1,65 @@
+[
+  {
+    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+    "name": "ZEN",
+    "symbol": "ZEN"
+  },
+  {
+    "address": "0x2c2e0b0c643ab9ad03adbe9140627a645e99e054",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0x2c2e0b0c643ab9ad03adbe9140627a645e99e054.png",
+    "symbol": "WETH",
+    "name": "Wrapped Ether"
+  },
+  {
+    "address": "0x6318374dfb468113e06d3463ec5ed0b6ae0f0982",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0x6318374dfb468113e06d3463ec5ed0b6ae0f0982.png",
+    "symbol": "AVAX",
+    "name": "Avax"
+  },
+  {
+    "address": "0xcc44eb064cd32aafeeb2ebb2a47be0b882383b53",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0xcc44eb064cd32aafeeb2ebb2a47be0b882383b53.png",
+    "symbol": "USDC",
+    "name": "USD Coin"
+  },
+  {
+    "address": "0xa167bcab6791304eda9b636c8beec75b3d2829e6",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0xa167bcab6791304eda9b636c8beec75b3d2829e6.png",
+    "symbol": "USDT",
+    "name": "Tether USD"
+  },
+  {
+    "address": "0x38c2a6953f86a7453622b1e7103b738239728754",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0x38c2a6953f86a7453622b1e7103b738239728754.png",
+    "symbol": "DAI",
+    "name": "Dai Stablecoin"
+  },
+  {
+    "address": "0xdf8dba35962aa0fad7ade0df07501c54ec7c4a89",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0xdf8dba35962aa0fad7ade0df07501c54ec7c4a89.png",
+    "symbol": "LINK",
+    "name": "ChainLink Token"
+  },
+  {
+    "address": "0x1d7fb99aed3c365b4def061b7978ce5055dfc1e7",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0x1d7fb99aed3c365b4def061b7978ce5055dfc1e7.png",
+    "symbol": "BTC",
+    "name": "BTC"
+  },
+  {
+    "address": "0xf5cb8652a84329a2016a386206761f455bcedab6",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/7332/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+    "name": "Wrapped ZEN",
+    "symbol": "WZEN"
+  }
+]
