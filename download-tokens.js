@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const SELECTED_CHAIN_ID = '8453'
+const SELECTED_CHAIN_ID = '534352'
 
 const download = async (url, destinationPath) => {
     try {
@@ -21,12 +21,11 @@ const download = async (url, destinationPath) => {
 }
 
 const changeImageURL = (tokenList) => {
-    return Object.values(tokenList).map(token=>({...token, logoURI: `https://github.com/PavelBulaienko/token-list/blob/main/src/images/${SELECTED_CHAIN_ID}/${token?.address?.toLowerCase()}.png`}))
+    return Object.values(tokenList).map(token=>({...token, logoURI: `https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/${SELECTED_CHAIN_ID}/${token?.address?.toLowerCase()}.png`}))
 }
 
 const formatZkEVM = (data) => {
     try {
-        const res = {}
         const array = Object.values(data).map(({symbol, name, address, decimals}) => {
             if(!address)return null
             return ({
@@ -34,13 +33,11 @@ const formatZkEVM = (data) => {
                 name,
                 address: address?.toLowerCase(),
                 decimals,
-                logoURI: `https://interport.fi/materials/${SELECTED_CHAIN_ID}/${address?.toLowerCase()}.png`,
+                logoURI: `https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/${SELECTED_CHAIN_ID}/${address?.toLowerCase()}.png`,
             })
         }).filter(item => !!item)
 
-        array.forEach((token) => res[token.address] = token)
-
-        return res
+        return array
     }catch (e) {
         console.log(e)
         return {}
@@ -49,7 +46,6 @@ const formatZkEVM = (data) => {
 
 const formatBaseNetw = (data) => {
     try {
-        const res = {}
         const array = data?.data?.map((token) => {
             const address = token?.tokens?.find((token) => token?.platformName === 'Base')?.address?.toLowerCase()
 
@@ -59,13 +55,11 @@ const formatBaseNetw = (data) => {
                 name: token?.name,
                 address,
                 decimals: 18,
-                logoURI: `https://interport.fi/materials/${SELECTED_CHAIN_ID}/${address?.toLowerCase()}.png`,
+                logoURI: `https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/${SELECTED_CHAIN_ID}/${address?.toLowerCase()}.png`,
             })
         }).filter(item => !!item)
 
-        array.forEach((token) => res[token.address] = token)
-
-        return res
+        return array
     }catch (e) {
         console.log(e)
         return {}
@@ -74,7 +68,6 @@ const formatBaseNetw = (data) => {
 
 const formatScrollNetw = (data) => {
     try {
-        const res = {}
         const array = data?.data?.tokens.map((token) => {
             if(!token)return null
             return ({
@@ -82,13 +75,11 @@ const formatScrollNetw = (data) => {
                 name: token?.name,
                 address: token?.address?.toLowerCase(),
                 decimals: token?.decimals,
-                logoURI: `https://interport.fi/materials/${SELECTED_CHAIN_ID}/${token?.address?.toLowerCase()}.png`,
+                logoURI: `https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/${SELECTED_CHAIN_ID}/${token?.address?.toLowerCase()}.png`,
             })
         }).filter(item => !!item)
 
-        array.forEach((token) => res[token.address] = token)
-
-        return res
+        return array
     }catch (e) {
         console.log(e)
         return {}
@@ -97,16 +88,16 @@ const formatScrollNetw = (data) => {
 
 const getDataZkEVM = async () => {
     const response = await axios.get(`https://market-api.openocean.finance/v2/${SELECTED_CHAIN_ID === '204' ? 'opbnb' : SELECTED_CHAIN_ID === '1101' ? 'polygon_zkevm' : 'linea'}/token`)
-    const formatted = {tokens: formatZkEVM(response.data.data)}
+    const formatted = formatZkEVM(response.data.data)
     fs.writeFileSync(`src/tokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
     console.log('JSON file was successfully saved');
-    const imageList = Object.values(response.data.data).map(({icon, address})=>({icon, address}))
+    const imageList = Object.values(response.data.data).map(({icon, address})=>({url: icon, address}))
 
     let isCreatedDirectory = false
 
-    fs.access(path.join('public', 'materials', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
+    fs.access(path.join('src', 'images', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
         if (err && !isCreatedDirectory) {
-            fs.mkdir(path.join('public', 'materials', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
+            fs.mkdir(path.join('src', 'images', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
                 if (err) {
                     console.error('Error while creating directory: ', err);
                 }
@@ -114,11 +105,10 @@ const getDataZkEVM = async () => {
             isCreatedDirectory = true
         }
     });
-
-    imageList.forEach(async ({icon, address})=>{
+    imageList.forEach(({url, address})=>{
         try {
             const name = address.toLowerCase() + '.png'
-            download(icon, path.join('public', 'materials', SELECTED_CHAIN_ID, name))
+            download(url, path.join('src', 'images', SELECTED_CHAIN_ID, name))
         }catch (e) {
             console.log(e)
         }
@@ -131,7 +121,7 @@ const getDataBaseNetw = async () => {
     const response = (await axios.get(`https://api.cryptorank.io/v0/coins?platformKeys=base`)).data
     const formatted = formatBaseNetw(response)
 
-    fs.writeFileSync(`src/apiTokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
+    fs.writeFileSync(`src/tokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
 
     const imageList = response?.data?.map((token) => {
         const address = token?.tokens?.find((token) => token?.platformName === 'Base')?.address?.toLowerCase()
@@ -139,15 +129,15 @@ const getDataBaseNetw = async () => {
         if(!address)return null
         return ({
             address,
-            icon: token?.image?.native,
+            url: token?.image?.native,
         })
     }).filter(item => !!item)
 
     let isCreatedDirectory = false
 
-    fs.access(path.join('public', 'materials', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
+    fs.access(path.join('src', 'images', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
         if (err && !isCreatedDirectory) {
-            fs.mkdir(path.join('public', 'materials', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
+            fs.mkdir(path.join('src', 'images', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
                 if (err) {
                     console.error('Error while creating directory: ', err);
                 }
@@ -155,11 +145,10 @@ const getDataBaseNetw = async () => {
             isCreatedDirectory = true
         }
     });
-
-    imageList.forEach(async ({icon, address})=>{
+    imageList.forEach(({url, address})=>{
         try {
             const name = address.toLowerCase() + '.png'
-            download(icon, path.join('public', 'materials', SELECTED_CHAIN_ID, name))
+            download(url, path.join('src', 'images', SELECTED_CHAIN_ID, name))
         }catch (e) {
             console.log(e)
         }
@@ -168,24 +157,24 @@ const getDataBaseNetw = async () => {
 
 const getDataScrollNetw = async () => {
     const response = (await axios.get(`https://ks-setting.kyberswap.com/api/v1/tokens?page=1&pageSize=100&isWhitelisted=true&chainIds=534352`)).data
-    const formatted = {tokens: formatScrollNetw(response)}
+    const formatted = formatScrollNetw(response)
 
-    fs.writeFileSync(`src/apiTokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
+    fs.writeFileSync(`src/tokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
 
     const imageList = response?.data?.tokens?.map((token) => {
         if(!token) return null
 
         return ({
             address: token?.address.toLowerCase(),
-            icon: token?.logoURI,
+            url: token?.logoURI,
         })
     }).filter(item => !!item)
 
     let isCreatedDirectory = false
 
-    fs.access(path.join('public', 'materials', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
+    fs.access(path.join('src', 'images', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
         if (err && !isCreatedDirectory) {
-            fs.mkdir(path.join('public', 'materials', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
+            fs.mkdir(path.join('src', 'images', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
                 if (err) {
                     console.error('Error while creating directory: ', err);
                 }
@@ -193,11 +182,10 @@ const getDataScrollNetw = async () => {
             isCreatedDirectory = true
         }
     });
-
-    imageList.forEach(async ({icon, address})=>{
+    imageList.forEach(({url, address})=>{
         try {
             const name = address.toLowerCase() + '.png'
-            download(icon, path.join('public', 'materials', SELECTED_CHAIN_ID, name))
+            download(url, path.join('src', 'images', SELECTED_CHAIN_ID, name))
         }catch (e) {
             console.log(e)
         }

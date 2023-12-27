@@ -1,0 +1,114 @@
+[
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4.png"
+  },
+  {
+    "symbol": "LAB.s",
+    "name": "LayerBank Token",
+    "address": "0x2a00647f45047f05bded961eb8ecabc42780e604",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x2a00647f45047f05bded961eb8ecabc42780e604.png"
+  },
+  {
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x5300000000000000000000000000000000000004",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x5300000000000000000000000000000000000004.png"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "address": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xf55bec9cafdbe8730f096aa55dad6d22d44099df.png"
+  },
+  {
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "address": "0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32.png"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped Bitcoin",
+    "address": "0x3c1bca5a656e69edcd0d4e36bebb3fcdaca60cf1",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x3c1bca5a656e69edcd0d4e36bebb3fcdaca60cf1.png"
+  },
+  {
+    "symbol": "DAI",
+    "name": "Dai Stablecoin",
+    "address": "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xca77eb3fefe3725dc33bccb54edefc3d9f764f97.png"
+  },
+  {
+    "symbol": "KNC",
+    "name": "Kyber Network Crystal v2",
+    "address": "0x608ef9a3bffe206b86c3108218003b3cfbf99c84",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x608ef9a3bffe206b86c3108218003b3cfbf99c84.png"
+  },
+  {
+    "symbol": "axlUSDC",
+    "name": "Axelar Wrapped USDC",
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+  },
+  {
+    "symbol": "PUNK",
+    "name": "PunkSwap Token",
+    "address": "0xddeb23905f6987d5f786a93c00bbed3d97af1ccc",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xddeb23905f6987d5f786a93c00bbed3d97af1ccc.png"
+  },
+  {
+    "symbol": "SCRIPT",
+    "name": "Script",
+    "address": "0x87203ff9393dc97d7847b4d4103bc32fea7d2db2",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x87203ff9393dc97d7847b4d4103bc32fea7d2db2.png"
+  },
+  {
+    "symbol": "TIA",
+    "name": "Axelar Wrapped TIA",
+    "address": "0x41b94c5867f7f6217c9a30520cb3e793b1ee1b97",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x41b94c5867f7f6217c9a30520cb3e793b1ee1b97.png"
+  },
+  {
+    "symbol": "LUSD",
+    "name": "LUSD Stablecoin",
+    "address": "0xedeabc3a1e7d21fe835ffa6f83a710c70bb1a051",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xedeabc3a1e7d21fe835ffa6f83a710c70bb1a051.png"
+  },
+  {
+    "symbol": "AXL",
+    "name": "Axelar",
+    "address": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0x23ee2343b892b1bb63503a4fabc840e0e2c6810f.png"
+  },
+  {
+    "symbol": "axlKNC",
+    "name": "Axelar Wrapped KNC",
+    "address": "0xb448ec505c924944ca8b2c55ef05c299ee0781df",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/534352/0xb448ec505c924944ca8b2c55ef05c299ee0781df.png"
+  }
+]

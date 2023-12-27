@@ -1,0 +1,93 @@
+[
+  {
+    "symbol": "ANKR",
+    "name": "ANKR",
+    "address": "0xdf474b7109b73b7d57926d43598d5934131136b2",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xdf474b7109b73b7d57926d43598d5934131136b2.png"
+  },
+  {
+    "symbol": "KOKOS",
+    "name": "Kokonut Swap",
+    "address": "0xf329bc8e21da7f278ce806e04c2266974edb1386",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xf329bc8e21da7f278ce806e04c2266974edb1386.png"
+  },
+  {
+    "symbol": "MATIC",
+    "name": "Polygon",
+    "address": "0xa2036f0538221a77a3937f1379699f44945018d0",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xa2036f0538221a77a3937f1379699f44945018d0.png"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+  },
+  {
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9.png"
+  },
+  {
+    "symbol": "stMATIC",
+    "name": "Lido Staked Matic",
+    "address": "0x83b874c1e09d316059d929da402dcb1a98e92082",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0x83b874c1e09d316059d929da402dcb1a98e92082.png"
+  },
+  {
+    "symbol": "DAI",
+    "name": "Dai",
+    "address": "0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4.png"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "address": "0x1e4a5963abfd975d8c9021ce480b42188849d41d",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0x1e4a5963abfd975d8c9021ce480b42188849d41d.png"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035.png"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "address": "0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1.png"
+  },
+  {
+    "symbol": "frxETH",
+    "name": "Frax Ether",
+    "address": "0xcf7ecee185f19e2e970a301ee37f93536ed66179",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xcf7ecee185f19e2e970a301ee37f93536ed66179.png"
+  },
+  {
+    "symbol": "FRAX",
+    "name": "Frax",
+    "address": "0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d.png"
+  },
+  {
+    "symbol": "QUICK(NEW)",
+    "name": "Quickswap",
+    "address": "0x68286607a1d43602d880d349187c3c48c0fd05e6",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0x68286607a1d43602d880d349187c3c48c0fd05e6.png"
+  }
+]
