@@ -63,6 +63,13 @@
     "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035.png"
   },
   {
+    "symbol": "USDbC",
+    "name": "USD Base Coin",
+    "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/1101/0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca.png"
+  },
+  {
     "symbol": "WBTC",
     "name": "Wrapped BTC",
     "address": "0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1",
