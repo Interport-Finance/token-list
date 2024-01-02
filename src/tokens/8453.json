@@ -1,1 +1,317 @@
-[{"symbol":"USDC","name":"USDC","address":"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"},{"symbol":"DAI","name":"Dai","address":"0x50c5725949a6f0c72e6c4a641f24049a917db0cb","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"},{"symbol":"RETH","name":"Rocket Pool ETH","address":"0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c.png"},{"symbol":"AXL","name":"Axelar","address":"0x23ee2343b892b1bb63503a4fabc840e0e2c6810f","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x23ee2343b892b1bb63503a4fabc840e0e2c6810f.png"},{"symbol":"CBETH","name":"Coinbase Wrapped Staked ETH","address":"0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22.png"},{"symbol":"PRIME","name":"Echelon Prime","address":"0xfa980ced6895ac314e7de34ef1bfae90a5add21b","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xfa980ced6895ac314e7de34ef1bfae90a5add21b.png"},{"symbol":"YFI","name":"yearn.finance","address":"0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239.png"},{"symbol":"BAL","name":"Balancer","address":"0x4158734d47fc9692176b5085e0f52ee0da5d47f1","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4158734d47fc9692176b5085e0f52ee0da5d47f1.png"},{"symbol":"RSR","name":"Reserve Rights","address":"0xab36452dbac151be02b16ca17d8919826072f64a","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xab36452dbac151be02b16ca17d8919826072f64a.png"},{"symbol":"TBTC","name":"tBTC","address":"0x236aa50979d5f3de3bd1eeb40e81137f22ab794b","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"},{"symbol":"DOLA","name":"Dola","address":"0x4621b7a9c75199271f773ebd9a499dbd165c3191","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4621b7a9c75199271f773ebd9a499dbd165c3191.png"},{"symbol":"VCNT","name":"ViciCoin","address":"0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0.png"},{"symbol":"MIMATIC","name":"MAI","address":"0xbf1aea8670d2528e08334083616dd9c5f3b087ae","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xbf1aea8670d2528e08334083616dd9c5f3b087ae.png"},{"symbol":"THALES","name":"Thales","address":"0xf34e0cff046e154cafcae502c7541b9e5fd8c249","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf34e0cff046e154cafcae502c7541b9e5fd8c249.png"},{"symbol":"USD+","name":"Overnight.fi USD+","address":"0xb79dd08ea68a908a97220c76d19a6aa9cbde4376","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xb79dd08ea68a908a97220c76d19a6aa9cbde4376.png"},{"symbol":"eUSD","name":"Electronic USD","address":"0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4.png"},{"symbol":"SOFI","name":"RAI Finance","address":"0x703d57164ca270b0b330a87fd159cfef1490c0a5","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x703d57164ca270b0b330a87fd159cfef1490c0a5.png"},{"symbol":"VELA","name":"Vela Token","address":"0x5a76a56ad937335168b30df3aa1327277421c6ae","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x5a76a56ad937335168b30df3aa1327277421c6ae.png"},{"symbol":"WAMPL","name":"Wrapped Ampleforth","address":"0x489fe42c267fe0366b16b0c39e7aeef977e841ef","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x489fe42c267fe0366b16b0c39e7aeef977e841ef.png"},{"symbol":"WELL","name":"Moonwell","address":"0xff8adec2221f9f4d8dfbafa6b9a297d17603493d","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xff8adec2221f9f4d8dfbafa6b9a297d17603493d.png"},{"symbol":"MBS","name":"UNKJD","address":"0x8fbd0648971d56f1f2c35fa075ff5bc75fb0e39d","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x8fbd0648971d56f1f2c35fa075ff5bc75fb0e39d.png"},{"symbol":"CDT","name":"CheckDot","address":"0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece.png"},{"symbol":"HOP","name":"Hop Protocol","address":"0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png"},{"symbol":"TOWER","name":"Tower","address":"0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee.png"},{"symbol":"MAHA","name":"MahaDAO","address":"0x437ebdffd397860d0f7f1660d817c059f3b8238a","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x437ebdffd397860d0f7f1660d817c059f3b8238a.png"},{"symbol":"DERP","name":"DerpDEX","address":"0xebb78043e29f4af24e6266a7d142f5a08443969e","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xebb78043e29f4af24e6266a7d142f5a08443969e.png"},{"symbol":"WETH","name":"WETH","address":"0x4200000000000000000000000000000000000006","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4200000000000000000000000000000000000006.png"},{"symbol":"DEUS","name":"Deus Finance","address":"0xde5ed76e7c05ec5e4572cfc88d1acea165109e44","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xde5ed76e7c05ec5e4572cfc88d1acea165109e44.png"},{"symbol":"UNIDX","name":"UniDex","address":"0x6b4712ae9797c199edd44f897ca09bc57628a1cf","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x6b4712ae9797c199edd44f897ca09bc57628a1cf.png"},{"symbol":"TAROT","name":"Tarot","address":"0xf544251d25f3d243a36b07e7e7962a678f952691","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf544251d25f3d243a36b07e7e7962a678f952691.png"},{"symbol":"SQUID","name":"Squid Game","address":"0x430c67ed118f0637ffe74c98e9b90919c93b7233","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x430c67ed118f0637ffe74c98e9b90919c93b7233.png"},{"symbol":"BOMB","name":"Fantom Bomb","address":"0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979.png"},{"symbol":"axlUSDC","name":"axlUSDC","address":"0xeb466342c4d449bc9f53a865d5cb90586f405215","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"},{"symbol":"PUBLX","name":"PUBLC","address":"0xd1f398d6b3e5e2387e413831e206cfeb5fc1dcee","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xd1f398d6b3e5e2387e413831e206cfeb5fc1dcee.png"},{"symbol":"ERN","name":"Ethos Reserve Note","address":"0xa334884bf6b0a066d553d19e507315e839409e62","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xa334884bf6b0a066d553d19e507315e839409e62.png"},{"symbol":"BALD","name":"Bald","address":"0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8.png"},{"symbol":"TOSHI","name":"Toshi","address":"0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4.png"},{"symbol":"RCKT","name":"RocketSwap","address":"0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09.png"},{"symbol":"BSWAP","name":"BaseSwap","address":"0x78a087d713be963bf307b18f2ff8122ef9a63ae9","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x78a087d713be963bf307b18f2ff8122ef9a63ae9.png"},{"symbol":"MOCHI","name":"Mochi","address":"0xa4220a2b0cb10bf5fdc3b8c3d9e13728f5e7ca56","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xa4220a2b0cb10bf5fdc3b8c3d9e13728f5e7ca56.png"},{"symbol":"AERO","name":"Aerodrome","address":"0x940181a94a35a4569e4529a3cdfb74e38fd98631","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x940181a94a35a4569e4529a3cdfb74e38fd98631.png"},{"symbol":"SEAM","name":"Seamless Protocol","address":"0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85.png"},{"symbol":"FP","name":"Fren Pet","address":"0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105.png"},{"symbol":"OMNI","name":"OmniCat","address":"0xc48e605c7b722a57277e087a6170b9e227e5ac0a","decimals":18,"logoURI":"https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc48e605c7b722a57277e087a6170b9e227e5ac0a.png"}]
+[
+  {
+    "symbol": "USDC",
+    "name": "USDC",
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+  },
+  {
+    "symbol": "USDbC",
+    "name": "USD Base Coin",
+    "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca.png"
+  },
+  {
+    "symbol": "DAI",
+    "name": "Dai",
+    "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+  },
+  {
+    "symbol": "RETH",
+    "name": "Rocket Pool ETH",
+    "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c.png"
+  },
+  {
+    "symbol": "AXL",
+    "name": "Axelar",
+    "address": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x23ee2343b892b1bb63503a4fabc840e0e2c6810f.png"
+  },
+  {
+    "symbol": "CBETH",
+    "name": "Coinbase Wrapped Staked ETH",
+    "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22.png"
+  },
+  {
+    "symbol": "PRIME",
+    "name": "Echelon Prime",
+    "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xfa980ced6895ac314e7de34ef1bfae90a5add21b.png"
+  },
+  {
+    "symbol": "YFI",
+    "name": "yearn.finance",
+    "address": "0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239.png"
+  },
+  {
+    "symbol": "BAL",
+    "name": "Balancer",
+    "address": "0x4158734d47fc9692176b5085e0f52ee0da5d47f1",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4158734d47fc9692176b5085e0f52ee0da5d47f1.png"
+  },
+  {
+    "symbol": "RSR",
+    "name": "Reserve Rights",
+    "address": "0xab36452dbac151be02b16ca17d8919826072f64a",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xab36452dbac151be02b16ca17d8919826072f64a.png"
+  },
+  {
+    "symbol": "TBTC",
+    "name": "tBTC",
+    "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"
+  },
+  {
+    "symbol": "DOLA",
+    "name": "Dola",
+    "address": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4621b7a9c75199271f773ebd9a499dbd165c3191.png"
+  },
+  {
+    "symbol": "VCNT",
+    "name": "ViciCoin",
+    "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0.png"
+  },
+  {
+    "symbol": "MIMATIC",
+    "name": "MAI",
+    "address": "0xbf1aea8670d2528e08334083616dd9c5f3b087ae",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xbf1aea8670d2528e08334083616dd9c5f3b087ae.png"
+  },
+  {
+    "symbol": "THALES",
+    "name": "Thales",
+    "address": "0xf34e0cff046e154cafcae502c7541b9e5fd8c249",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf34e0cff046e154cafcae502c7541b9e5fd8c249.png"
+  },
+  {
+    "symbol": "USD+",
+    "name": "Overnight.fi USD+",
+    "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xb79dd08ea68a908a97220c76d19a6aa9cbde4376.png"
+  },
+  {
+    "symbol": "eUSD",
+    "name": "Electronic USD",
+    "address": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4.png"
+  },
+  {
+    "symbol": "SOFI",
+    "name": "RAI Finance",
+    "address": "0x703d57164ca270b0b330a87fd159cfef1490c0a5",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x703d57164ca270b0b330a87fd159cfef1490c0a5.png"
+  },
+  {
+    "symbol": "VELA",
+    "name": "Vela Token",
+    "address": "0x5a76a56ad937335168b30df3aa1327277421c6ae",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x5a76a56ad937335168b30df3aa1327277421c6ae.png"
+  },
+  {
+    "symbol": "WAMPL",
+    "name": "Wrapped Ampleforth",
+    "address": "0x489fe42c267fe0366b16b0c39e7aeef977e841ef",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x489fe42c267fe0366b16b0c39e7aeef977e841ef.png"
+  },
+  {
+    "symbol": "WELL",
+    "name": "Moonwell",
+    "address": "0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xff8adec2221f9f4d8dfbafa6b9a297d17603493d.png"
+  },
+  {
+    "symbol": "MBS",
+    "name": "UNKJD",
+    "address": "0x8fbd0648971d56f1f2c35fa075ff5bc75fb0e39d",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x8fbd0648971d56f1f2c35fa075ff5bc75fb0e39d.png"
+  },
+  {
+    "symbol": "CDT",
+    "name": "CheckDot",
+    "address": "0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x0cbd6fadcf8096cc9a43d90b45f65826102e3ece.png"
+  },
+  {
+    "symbol": "HOP",
+    "name": "Hop Protocol",
+    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png"
+  },
+  {
+    "symbol": "TOWER",
+    "name": "Tower",
+    "address": "0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee.png"
+  },
+  {
+    "symbol": "MAHA",
+    "name": "MahaDAO",
+    "address": "0x437ebdffd397860d0f7f1660d817c059f3b8238a",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x437ebdffd397860d0f7f1660d817c059f3b8238a.png"
+  },
+  {
+    "symbol": "DERP",
+    "name": "DerpDEX",
+    "address": "0xebb78043e29f4af24e6266a7d142f5a08443969e",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xebb78043e29f4af24e6266a7d142f5a08443969e.png"
+  },
+  {
+    "symbol": "WETH",
+    "name": "WETH",
+    "address": "0x4200000000000000000000000000000000000006",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x4200000000000000000000000000000000000006.png"
+  },
+  {
+    "symbol": "DEUS",
+    "name": "Deus Finance",
+    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xde5ed76e7c05ec5e4572cfc88d1acea165109e44.png"
+  },
+  {
+    "symbol": "UNIDX",
+    "name": "UniDex",
+    "address": "0x6b4712ae9797c199edd44f897ca09bc57628a1cf",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x6b4712ae9797c199edd44f897ca09bc57628a1cf.png"
+  },
+  {
+    "symbol": "TAROT",
+    "name": "Tarot",
+    "address": "0xf544251d25f3d243a36b07e7e7962a678f952691",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xf544251d25f3d243a36b07e7e7962a678f952691.png"
+  },
+  {
+    "symbol": "SQUID",
+    "name": "Squid Game",
+    "address": "0x430c67ed118f0637ffe74c98e9b90919c93b7233",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x430c67ed118f0637ffe74c98e9b90919c93b7233.png"
+  },
+  {
+    "symbol": "BOMB",
+    "name": "Fantom Bomb",
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979.png"
+  },
+  {
+    "symbol": "axlUSDC",
+    "name": "axlUSDC",
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+  },
+  {
+    "symbol": "PUBLX",
+    "name": "PUBLC",
+    "address": "0xd1f398d6b3e5e2387e413831e206cfeb5fc1dcee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xd1f398d6b3e5e2387e413831e206cfeb5fc1dcee.png"
+  },
+  {
+    "symbol": "ERN",
+    "name": "Ethos Reserve Note",
+    "address": "0xa334884bf6b0a066d553d19e507315e839409e62",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xa334884bf6b0a066d553d19e507315e839409e62.png"
+  },
+  {
+    "symbol": "BALD",
+    "name": "Bald",
+    "address": "0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8.png"
+  },
+  {
+    "symbol": "TOSHI",
+    "name": "Toshi",
+    "address": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4.png"
+  },
+  {
+    "symbol": "RCKT",
+    "name": "RocketSwap",
+    "address": "0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x6653dd4b92a0e5bf8ae570a98906d9d6fd2eec09.png"
+  },
+  {
+    "symbol": "BSWAP",
+    "name": "BaseSwap",
+    "address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x78a087d713be963bf307b18f2ff8122ef9a63ae9.png"
+  },
+  {
+    "symbol": "MOCHI",
+    "name": "Mochi",
+    "address": "0xa4220a2b0cb10bf5fdc3b8c3d9e13728f5e7ca56",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xa4220a2b0cb10bf5fdc3b8c3d9e13728f5e7ca56.png"
+  },
+  {
+    "symbol": "AERO",
+    "name": "Aerodrome",
+    "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x940181a94a35a4569e4529a3cdfb74e38fd98631.png"
+  },
+  {
+    "symbol": "SEAM",
+    "name": "Seamless Protocol",
+    "address": "0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0x1c7a460413dd4e964f96d8dfc56e7223ce88cd85.png"
+  },
+  {
+    "symbol": "FP",
+    "name": "Fren Pet",
+    "address": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105.png"
+  },
+  {
+    "symbol": "OMNI",
+    "name": "OmniCat",
+    "address": "0xc48e605c7b722a57277e087a6170b9e227e5ac0a",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc48e605c7b722a57277e087a6170b9e227e5ac0a.png"
+  }
+]
