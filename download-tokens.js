@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const SELECTED_CHAIN_ID = '534352'
+const SELECTED_CHAIN_ID = '81457'
 
 const download = async (url, destinationPath) => {
     try {
@@ -69,6 +69,26 @@ const formatBaseNetw = (data) => {
 const formatScrollNetw = (data) => {
     try {
         const array = data?.data?.tokens.map((token) => {
+            if(!token)return null
+            return ({
+                symbol: token?.symbol,
+                name: token?.name,
+                address: token?.address?.toLowerCase(),
+                decimals: token?.decimals,
+                logoURI: `https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/${SELECTED_CHAIN_ID}/${token?.address?.toLowerCase()}.png`,
+            })
+        }).filter(item => !!item)
+
+        return array
+    }catch (e) {
+        console.log(e)
+        return {}
+    }
+}
+
+const formatBlast = (data) => {
+    try {
+        const array = data?.map((token) => {
             if(!token)return null
             return ({
                 symbol: token?.symbol,
@@ -192,6 +212,43 @@ const getDataScrollNetw = async () => {
     })
 }
 
+const getDataBlastNetw = async () => {
+    const response = (await axios.get(`https://market-api.openocean.finance/v2/blast/token`))?.data?.data
+    const formatted = formatBlast(response)
+
+    fs.writeFileSync(`src/tokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
+
+    const imageList = response?.map((token) => {
+        if(!token) return null
+
+        return ({
+            address: token?.address.toLowerCase(),
+            url: token?.icon,
+        })
+    }).filter(item => !!item)
+
+    let isCreatedDirectory = false
+
+    fs.access(path.join('src', 'images', SELECTED_CHAIN_ID), fs.constants.F_OK, (err) => {
+        if (err && !isCreatedDirectory) {
+            fs.mkdir(path.join('src', 'images', SELECTED_CHAIN_ID), { recursive: true }, (err) => {
+                if (err) {
+                    console.error('Error while creating directory: ', err);
+                }
+            })
+            isCreatedDirectory = true
+        }
+    });
+    imageList.forEach(({url, address})=>{
+        try {
+            const name = address.toLowerCase() + '.png'
+            download(url, path.join('src', 'images', SELECTED_CHAIN_ID, name))
+        }catch (e) {
+            console.log(e)
+        }
+    })
+}
+
 const fetchData = async () => {
     try {
         if(SELECTED_CHAIN_ID === '1101' || SELECTED_CHAIN_ID === '59144' || SELECTED_CHAIN_ID === '204'){
@@ -202,6 +259,9 @@ const fetchData = async () => {
         }
         if(SELECTED_CHAIN_ID === '534352'){
             return await getDataScrollNetw().catch(console.log)
+        }
+        if(SELECTED_CHAIN_ID === '81457'){
+            return await getDataBlastNetw().catch(console.log)
         }
         const response = await axios.get(`https://tokens.1inch.io/v1.2/${SELECTED_CHAIN_ID}`)
         const formatted = changeImageURL(response.data)
