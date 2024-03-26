@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const SELECTED_CHAIN_ID = '81457'
+const SELECTED_CHAIN_ID = '169'
 
 const download = async (url, destinationPath) => {
     try {
@@ -251,7 +251,7 @@ const getDataBlastNetw = async () => {
 
 const fetchData = async () => {
     try {
-        if(SELECTED_CHAIN_ID === '1101' || SELECTED_CHAIN_ID === '59144' || SELECTED_CHAIN_ID === '204'){
+        if(SELECTED_CHAIN_ID === '1101' || SELECTED_CHAIN_ID === '59144' || SELECTED_CHAIN_ID === '204' || SELECTED_CHAIN_ID === '169'){
             return await getDataZkEVM().catch(console.log)
         }
         if(SELECTED_CHAIN_ID === '8453'){
