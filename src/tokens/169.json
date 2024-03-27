@@ -1,115 +1,38 @@
 [
   {
-    "symbol": "NILE",
-    "name": "Nile",
-    "address": "0xaaaac83751090c6ea42379626435f805ddf54dc8",
+    "symbol": "MANTA",
+    "name": "MANTA",
+    "address": "0x95cef13441be50d20ca4558cc0a27b601ac544e5",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xaaaac83751090c6ea42379626435f805ddf54dc8.png"
-  },
-  {
-    "symbol": "LYNX",
-    "name": "Lynex",
-    "address": "0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af.png"
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
   },
   {
     "symbol": "STONE",
-    "name": "StakeStone ETH",
-    "address": "0x93f4d0ab6a8b4271f4a28db399b5e30612d21116",
+    "name": "StakeStone Ether",
+    "address": "0xec901da9c68e90798bbbb74c11406a32a70652c3",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x93f4d0ab6a8b4271f4a28db399b5e30612d21116.png"
-  },
-  {
-    "symbol": "WBTC",
-    "name": "Wrapped Bitcoin",
-    "address": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4.png"
-  },
-  {
-    "symbol": "XFIT",
-    "name": "XFai",
-    "address": "0x8c56017b172226fe024dea197748fc1eaccc82b1",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x8c56017b172226fe024dea197748fc1eaccc82b1.png"
-  },
-  {
-    "symbol": "axlUSDC",
-    "name": "Bridged USD Coin (Axelar)",
-    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
-  },
-  {
-    "symbol": "USDT",
-    "name": "Binance-Peg USD (T)",
-    "address": "0xa219439258ca9da29e9cc4ce5596924745e12b93",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xa219439258ca9da29e9cc4ce5596924745e12b93.png"
-  },
-  {
-    "symbol": "DAI",
-    "name": "Bridged Dai Stablecoin (Linea)",
-    "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5.png"
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xec901da9c68e90798bbbb74c11406a32a70652c3.png"
   },
   {
     "symbol": "USDC",
-    "name": "USD Coin",
-    "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+    "name": "Bridged USD Coin (Manta Pacific)",
+    "address": "0xb73603c5d87fa094b7314c74ace2e64d165016fb",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x176211869ca2b568f2a7d4ee941e073a821ee1ff.png"
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xb73603c5d87fa094b7314c74ace2e64d165016fb.png"
   },
   {
-    "symbol": "IUSD",
-    "name": "iZUMi Bond USD",
-    "address": "0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d.png"
-  },
-  {
-    "symbol": "IZI",
-    "name": "iZUMi Finance",
-    "address": "0x60d01ec2d5e98ac51c8b4cf84dfcce98d527c747",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x60d01ec2d5e98ac51c8b4cf84dfcce98d527c747.png"
-  },
-  {
-    "symbol": "AVAX",
-    "name": "Avalanche",
-    "address": "0x5471ea8f739dd37e9b81be9c5c77754d8aa953e4",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x5471ea8f739dd37e9b81be9c5c77754d8aa953e4.png"
-  },
-  {
-    "symbol": "MATIC",
-    "name": "Polygon",
-    "address": "0x265b25e22bcd7f10a5bd6e6410f10537cc7567e8",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x265b25e22bcd7f10a5bd6e6410f10537cc7567e8.png"
-  },
-  {
-    "symbol": "BNB",
-    "name": "BNB",
-    "address": "0xf5c6825015280cdfd0b56903f9f8b5a2233476f5",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xf5c6825015280cdfd0b56903f9f8b5a2233476f5.png"
+    "symbol": "USDT",
+    "name": "Bridged Tether (Manta Pacific)",
+    "address": "0xf417f5a458ec102b90352f697d6e2ac3a3d2851f",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xf417f5a458ec102b90352f697d6e2ac3a3d2851f.png"
   },
   {
     "symbol": "WETH",
-    "name": "WETH",
-    "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+    "name": "Bridged Wrapped Ether (Manta Pacific)",
+    "address": "0x0dc808adce2099a9f62aa87d9670745aba741746",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f.png"
-  },
-  {
-    "symbol": "BUSD",
-    "name": "Binance USD",
-    "address": "0x7d43aabc515c356145049227cee54b608342c0ad",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x7d43aabc515c356145049227cee54b608342c0ad.png"
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x0dc808adce2099a9f62aa87d9670745aba741746.png"
   },
   {
     "symbol": "ETH",

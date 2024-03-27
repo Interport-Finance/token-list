@@ -107,7 +107,7 @@ const formatBlast = (data) => {
 }
 
 const getDataZkEVM = async () => {
-    const response = await axios.get(`https://market-api.openocean.finance/v2/${SELECTED_CHAIN_ID === '204' ? 'opbnb' : SELECTED_CHAIN_ID === '1101' ? 'polygon_zkevm' : 'linea'}/token`)
+    const response = await axios.get(`https://market-api.openocean.finance/v2/${SELECTED_CHAIN_ID === '204' ? 'opbnb' : SELECTED_CHAIN_ID === '1101' ? 'polygon_zkevm' :  SELECTED_CHAIN_ID === '169' ? 'manta' : 'linea'}/token`)
     const formatted = formatZkEVM(response.data.data)
     fs.writeFileSync(`src/tokens/${SELECTED_CHAIN_ID}.json`, JSON.stringify(formatted));
     console.log('JSON file was successfully saved');
