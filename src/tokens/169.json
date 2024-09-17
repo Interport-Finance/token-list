@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "MANTA",
+    "name": "MANTA",
+    "address": "0x95cef13441be50d20ca4558cc0a27b601ac544e5",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
+  },
+  {
+    "symbol": "STONE",
+    "name": "StakeStone Ether",
+    "address": "0xec901da9c68e90798bbbb74c11406a32a70652c3",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xec901da9c68e90798bbbb74c11406a32a70652c3.png"
+  },
+  {
+    "symbol": "USDC",
+    "name": "Bridged USD Coin (Manta Pacific)",
+    "address": "0xb73603c5d87fa094b7314c74ace2e64d165016fb",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xb73603c5d87fa094b7314c74ace2e64d165016fb.png"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Bridged Tether (Manta Pacific)",
+    "address": "0xf417f5a458ec102b90352f697d6e2ac3a3d2851f",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xf417f5a458ec102b90352f697d6e2ac3a3d2851f.png"
+  },
+  {
+    "symbol": "WETH",
+    "name": "Bridged Wrapped Ether (Manta Pacific)",
+    "address": "0x0dc808adce2099a9f62aa87d9670745aba741746",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0x0dc808adce2099a9f62aa87d9670745aba741746.png"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/169/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+  }
+]
