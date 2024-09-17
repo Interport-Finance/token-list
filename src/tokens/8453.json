@@ -313,5 +313,26 @@
     "address": "0xc48e605c7b722a57277e087a6170b9e227e5ac0a",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc48e605c7b722a57277e087a6170b9e227e5ac0a.png"
+  },
+  {
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "address": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452.webp"
+  },
+  {
+    "symbol": "RDNT",
+    "name": "Radiant",
+    "address": "0xd722e55c1d9d9fa0021a5215cbb904b92b3dc5d4",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xd722e55c1d9d9fa0021a5215cbb904b92b3dc5d4.png"
+  },
+  {
+    "symbol": "cbBTC",
+    "name": "Coinbase Wrapped BTC",
+    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/Interport-Finance/token-list/main/src/images/8453/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.webp"
   }
 ]
